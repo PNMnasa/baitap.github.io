@@ -1,27 +1,36 @@
 * {
     margin: 0;
-    padding: 0;
 }
 
-#content {
-    width: 500px;
-    background-color: blanchedalmond;
-}
-
-#sub-nav {
-    background-color: beige;
+.text-center {
     text-align: center;
-    font-size: 0;
 }
 
-#sub-nav>li {
-    font-size: 24px;
-    display: inline-block;
-    width: 100px;
-    height: 40px;
-    line-height: 40px;
+.circle {
+    border-radius: 50%;
 }
 
-#sub-nav>li:hover {
-    background-color: aqua;
+ul {
+    padding: 0;
+    list-style-type: none;
+}
+
+.profile {
+    background-image: linear-gradient(to right, rgb(208, 0, 255) , rgb(0, 229, 255));
+    margin: 8px 0px;
+    padding: 16px;
+    border-radius: 8px;
+}
+
+body {
+    background: linear-gradient(135deg, rgb(3, 255, 129) , rgb(168, 5, 244));
+}
+
+body *{
+    background: none;
+}
+
+#feedback {
+    background-color: rgb(200, 200, 200);
+    width: 99%;
 }
