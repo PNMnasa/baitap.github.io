@@ -10,6 +10,15 @@
     border-radius: 50%;
 }
 
+a {
+    display: inline-block;
+    height: 24px;
+    padding: 12px;
+    margin: 4px;
+    background-color: rgb(255, 255, 255);
+    border-radius: 12px;
+}
+
 ul {
     padding: 0;
     list-style-type: none;
@@ -24,10 +33,6 @@ ul {
 
 body {
     background: linear-gradient(135deg, rgb(3, 255, 129) , rgb(168, 5, 244));
-}
-
-body *{
-    background: none;
 }
 
 #feedback {
